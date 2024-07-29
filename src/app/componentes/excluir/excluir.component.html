@@ -1,0 +1,14 @@
+<div *ngIf="funcionario">
+    <h1>Deseja confirmar a exclusão>?</h1>
+    <div>
+        <p>Funcionário:</p>
+        <p>{{funcionario.name}}</p>
+
+        <p>Departamento:</p>
+        <p>{{funcionario.department}}</p>
+    </div>
+    <div>
+        <button (click)="Excluir()">Confirmar exclusão</button>
+    </div>
+</div>
+
